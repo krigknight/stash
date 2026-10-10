@@ -2,7 +2,9 @@
 
 Organize your Chrome bookmarks, YouTube playlists, Watch Later videos and PDFs by topic and importance, with a graph view of how everything connects. Set up in minutes using the AI you already use.
 <img width="1917" height="972" alt="sneak_peek" src="https://github.com/user-attachments/assets/c9d9110b-6cf1-4b7a-828d-1af42bcfe7af" />
+
 <img width="1902" height="971" alt="library" src="https://github.com/user-attachments/assets/cb3e6c4a-d7a8-44a7-bb76-d7b253924b2f" />
+
 <img width="1897" height="967" alt="graph" src="https://github.com/user-attachments/assets/ca043540-fe7b-46e9-a755-6960ae92d235" />
 
 
