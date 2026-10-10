@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en" data-mode="light" data-style="retro" data-palette="paper">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stash</title>
+  <link rel="icon" href="assets/icons/icon32.png">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <a class="skip" href="#view">Skip to content</a>
+  <header class="top">
+    <a class="logo" href="#library" aria-label="Stash home">STASH<span>.v2</span></a>
+    <nav aria-label="Main">
+      <a class="b" href="#library" data-nav="library">Library</a>
+      <a class="b" href="#graph" data-nav="graph">Graph</a>
+      <a class="b" href="#settings" data-nav="settings">Settings</a>
+      <a class="b primary" href="#setup" id="setupLink" hidden>Set up topics</a>
+    </nav>
+    <button class="b" type="button" id="themeBtn" title="Light, dark or match your system">Mode: light</button>
+  </header>
+  <div id="msg" role="status" aria-live="polite" hidden></div>
+  <main id="view" tabindex="-1"></main>
+  <div id="undo" role="status" aria-live="polite" hidden></div>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

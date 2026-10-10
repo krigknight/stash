@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "Stash",
+  "version": "2.0.0",
+  "description": "Sort your bookmarks, YouTube playlists and videos, and PDFs into your own topics. Everything stays on your device.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7UnSL4dBhoJgqVjznHOGC+nVnCuwY17zwEkuNXtinvwigxfe+gdlYbmC7eraIWdY2C/3T83mnN+XUmtR8lnYKHFuGYV5r1lQJBIhlNPM8sbmWYlLvHWv985yEs6QybSfSt0so2fSPhDvezpdHAZTYTKo+FwETOV8/MZMGv1ECCAB5/X0PzD8UsG6X4d8neoWjEBX/8U/dkKaldaGVdBAR7NHYF5YsUKZOBiJkclrWuJNP7KlhGWeFKD0yBP/maLUV/jZjZinIFR+WsF1cJSWS58c4dQAGjuUAo2XmxQxbQ2vGeEQnEUb3gMQtGMR7I7BTyT2mnRWv9BEnOUTL0KjbwIDAQAB",
+  "permissions": [
+    "bookmarks",
+    "scripting",
+    "storage",
+    "unlimitedStorage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://www.youtube.com/*"
+  ],
+  "action": {
+    "default_title": "Add to Stash",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/icons/icon16.png",
+      "32": "assets/icons/icon32.png",
+      "48": "assets/icons/icon48.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "minimum_chrome_version": "116",
+  "icons": {
+    "16": "assets/icons/icon16.png",
+    "32": "assets/icons/icon32.png",
+    "48": "assets/icons/icon48.png",
+    "128": "assets/icons/icon128.png"
+  }
+}

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" data-mode="light" data-style="retro" data-palette="paper">
+<head>
+  <meta charset="utf-8">
+  <title>Stash</title>
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/popup.css">
+</head>
+<body class="popup">
+  <header class="ph"><span class="logo">STASH<span>.v2</span></span></header>
+  <main id="pop">
+    <p class="hint" id="loading">Loading…</p>
+    <div id="form" hidden>
+      <div class="page">
+        <div id="ptitle" class="ptitle"></div>
+        <div id="purl" class="purl"></div>
+      </div>
+      <div id="state" class="state" role="status" aria-live="polite"></div>
+      <label class="fld" for="topic">Topic</label>
+      <select id="topic"></select>
+      <div class="improw"><span class="fld" id="impLabel">Importance</span><span id="imp"></span></div>
+      <p class="hint" id="impHint"></p>
+      <button type="button" class="b primary add" id="add">+ Add to Stash</button>
+      <label class="check"><input type="checkbox" id="alsoBm"> also save to Chrome bookmarks</label>
+    </div>
+    <div class="row foot"><span class="hint">Saved on this device only.</span><button type="button" class="b" id="open">Open Stash</button></div>
+  </main>
+  <script type="module" src="js/popup.js"></script>
+</body>
+</html>
