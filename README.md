@@ -1,2 +1,2 @@
 # stash
-vibe coded bookmarks, youtube watch-later and playlist organizer.
+vibe coded browser bookmarks, youtube watch-later and playlist organizer.
